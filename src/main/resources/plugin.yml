@@ -1,0 +1,4 @@
+name: mcplayground
+version: ${project.version}
+main: de.wnklr.minecraft.playground.Plugin
+api-version: 1.16
