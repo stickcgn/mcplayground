@@ -6,12 +6,12 @@ public final class Plugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        System.out.println("# playground enabled");
+        System.out.println("# mcplayground enabled");
         getServer().getPluginManager().registerEvents(new PlayerMovementListener(), this);
     }
 
     @Override
     public void onDisable() {
-        System.out.println("# playground disabled");
+        System.out.println("# mcplayground disabled");
     }
 }
